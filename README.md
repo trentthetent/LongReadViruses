@@ -24,9 +24,10 @@ By running clean cell cultures through LRV, users can set a baseline p-value for
 
 VirFinder
 ---------
- a novel k-mer based tool for identifying viral sequences from assembled metagenomic data
- GitHub: https://github.com/jessieren/VirFinder
- NCBI: https://www.ncbi.nlm.nih.gov/pubmed/28683828
+At the heart of VirusAlert is VirFinder. A k-mer based virus detection software that implements machine learning to allow users to isolate viral reads from host reads. VirFinder is, by default, trained on viral sequences from the RefSeq database. VirFinder then uses machine learning algorithms to find possible viral k-mers within the reads. 
+
+GitHub: https://github.com/jessieren/VirFinder
+NCBI: https://www.ncbi.nlm.nih.gov/pubmed/28683828
  
  BLASTn
  -----
